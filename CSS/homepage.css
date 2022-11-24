@@ -34,3 +34,14 @@ body{
 #hero li:hover{
     color: white;
 }
+
+.clearfix{
+    clear: both;
+}
+
+#hero .title{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: calc(100vh - 112px);
+}
