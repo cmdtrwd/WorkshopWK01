@@ -72,3 +72,21 @@ body{
     top: 50%;
     right: 50%;
 }
+
+#boxes{
+    width: 1040px;
+    margin: 64px auto;
+}
+
+#boxes .box{
+    width: 336px;
+    box-sizing: border-box;
+    border: 1px solid deeppink;
+    float: left;
+    height: 300px;
+    margin-right: 16px;
+}
+
+#boxes .box:nth-child(3){
+    margin-right: 0;
+}
