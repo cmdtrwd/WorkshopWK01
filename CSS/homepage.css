@@ -1,5 +1,30 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero{
     width: 100%;
     height: 100vh;
     background-color: deeppink;
+}
+
+#hero nav{
+    float: right;
+}
+
+#hero ul{
+    padding: 32px 64px;
+}
+
+#hero li{
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+#hero li:hover{
+    color: white;
 }
