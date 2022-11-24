@@ -10,6 +10,12 @@ body{
     background-color: deeppink;
 }
 
+#hero img{
+    width: 200px;
+    float: left;
+    padding-left: 64px;
+}
+
 #hero nav{
     float: right;
 }
